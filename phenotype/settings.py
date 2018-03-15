@@ -75,15 +75,12 @@ HTTPCACHE_STORAGE = 'scrapy_splash.SplashAwareFSCacheStorage'
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'yelp.pipelines.YelpPipeline': 300,
-#}
 
 ITEM_PIPELINES = {
     'scrapy.pipelines.files.FilesPipeline': 1
 }
 
-FILES_STORE = '/Users/ginkgo/dev/generalassembly/capstone/phenotype/phenotype/phenotypes/'
+FILES_STORE = './'
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
